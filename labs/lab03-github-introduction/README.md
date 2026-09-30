@@ -84,5 +84,23 @@ Complete all of the following in your notes section.
 
 # Section 3: Student Notes
 
-Delete this line and write your notes here.
-
+# **Favorite Mega Man Charater**
+##  *in MegaMan X*
+---
+- ### Heros
+1. X
+2. Zero
+3. Axl
+- ### Villains
+1. Sigma
+2. Vile
+3. Robot verion of Dr Wily
+- ### Others
+1. Dynamo
+2. Cornal
+3. Iris
+## Who Wins
+- [X] Hero
+- [ ] Villain
+- [ ] Other
+-[Mega Man X](https://en.wikipedia.org/wiki/Mega_Man_X)
