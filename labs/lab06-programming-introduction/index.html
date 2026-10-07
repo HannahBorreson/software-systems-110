@@ -18,16 +18,16 @@
             <div class="rules">
 
                 If doISayHello is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Hello, World!"<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "What's up, Kid!"<br><br>
 
                 Otherwise, if doISayGoodbye is true<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Goodbye, World!"<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Later, Kid!"<br><br>
 
                 Otherwise<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say "Why am I even out here? It's cold."<br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Say "Is there a loose screw in my head? I am sleepy and bummed out."<br><br>
 
                 Always<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are going inside now.
+                &nbsp;&nbsp;&nbsp;&nbsp;Say something so the world knows you are going doomscroll now.
 
             </div>
 
@@ -35,7 +35,10 @@
 
         <div class="container">
 
-            <h1>Decision Making Program</h1>
+            <h1>Decision Making Program
+                <br>
+                Mai Kou Yang
+            </h1>
 
             <p>
                 Change the boolean variables below and then run the program.
@@ -45,9 +48,9 @@
             <h2>Program Variables</h2>
 
             <p>
-                I walk outside of my home. It's a beautiful fall day in La Crosse, Wisconsin.
+                I walk outside of my car. It's a another fall day in La Crosse, Wisconsin.
                 <br>
-                The sun is shining. The air smells like apples and crisp autumn leaves.
+                The sun is bleaking. The air smells like sour apples and dead autumn leaves.
             </p>
 
             <div class="variable-container">
@@ -57,7 +60,7 @@
                     <h3>Hello Option</h3>
 
                     <p>
-                        Should I say "Hello, World!"?
+                        Should I say "What's up, Kid!"?
                     </p>
 
                     <label for="helloInput">
@@ -76,7 +79,7 @@
                     <h3>Goodbye Option</h3>
 
                     <p>
-                        Should I say "Goodbye, World!"?
+                        Should I say "Later, Kid!"?
                     </p>
 
                     <label for="goodbyeInput">
@@ -145,7 +148,7 @@
                 doISayHello = true
                 doISayGoodbye = true
              
-                Observation:
+                Observation: "Hello, World!" and "I am tired of being outside. I am going inside now." is displayed.
             
                 ***********************************************************************
                 
@@ -153,7 +156,7 @@
                 doISayHello = false
                 doISayGoodbye = false
              
-                Observation:
+                Observation: "Why am I even out here? It's cold." and "I am tired of being outside. I am going inside now." is displayed.
             
                 ***********************************************************************
 
@@ -161,7 +164,7 @@
                 doISayHello = true
                 doISayGoodbye = false
              
-                Observation:
+                Observation: "Hello, World!" and "I am tired of being outside. I am going inside now." is displayed.
 
                 ***********************************************************************    
 
@@ -169,7 +172,7 @@
                 doISayHello = false
                 doISayGoodbye = true
              
-                Observation:
+                Observation: "Goodbye, World!" and "I am tired of being outside. I am going inside now." is displayed.
                 
             */
     
@@ -180,22 +183,22 @@
             if(doISayHello == true) {
 
                 // Assign a greeting message.
-                message = "Hello, World!";
+                message = "What's up, Kid!";
 
             } else if(doISayGoodbye == true) {
 
                 // Assign a goodbye message.
-                message = "Goodbye, World!";
+                message = "Later, Kid!";
 
             } else {
 
                 // Assign a default message.
-                message = "Why am I even out here? It's cold.";
+                message = "Is there a loose screw in my head? I am sleepy and bummed out.";
 
             }
 
             // Assign a message that always displays.
-            finalMessage = "I am tired of being outside. I am going inside now.";
+            finalMessage = "I am bored of waiting here. I am going to doomscroll now.";
 
             displayMessages(message, finalMessage);
 

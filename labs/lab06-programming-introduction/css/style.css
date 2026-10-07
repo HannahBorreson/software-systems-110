@@ -7,9 +7,9 @@
 body {
     background: linear-gradient(
         to bottom,
-        #090014 0%,
-        #1b0033 50%,
-        #12001f 100%
+        #f7f6f8 30%,
+        #7c3b79 50%,
+        #443d4a 100%
     );
 
     color: #ffffff;
@@ -25,7 +25,7 @@ body {
 
 .page-layout {
     display: flex;
-    gap: 25px;
+    gap: 50px;
     align-items: flex-start;
 }
 
@@ -33,18 +33,18 @@ body {
 
 .sidebar {
     flex: 1;
-    max-width: 280px;
+    max-width: 350px;
 
-    padding: 25px;
+    padding: 40px;
 
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(183, 103, 37, 0.792);
 
     border: 2px solid #66e6ff;
     border-radius: 10px;
 
     box-shadow:
-        0 0 15px #66e6ff,
-        0 0 30px rgba(102, 230, 255, 0.25);
+        0 0 15px #5c9060,
+        0 0 30px rgba(22, 1, 99, 0.25);
 }
 
 /* ===== Rules ===== */
@@ -52,7 +52,7 @@ body {
 .rules {
     font-family: Consolas, "Courier New", monospace;
 
-    color: #e8e8e8;
+    color: #f0f400;
 
     line-height: 1.8;
 }
@@ -66,7 +66,7 @@ body {
 
     background: rgba(0, 0, 0, 0.25);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #ff05ac;
     border-radius: 10px;
 
     box-shadow:
@@ -83,7 +83,7 @@ h3 {
 }
 
 h1 {
-    color: #ff66cc;
+    color: #77f8ff;
 
     margin-top: 0;
     margin-bottom: 20px;
@@ -112,11 +112,12 @@ p {
     color: #f0f0f0;
 
     font-size: 1.05rem;
+    font-weight: bold;
     line-height: 1.7;
 }
 
 strong {
-    color: #ffb347;
+    color: #71f200;
 }
 
 /* ===== Variable Cards ===== */
@@ -133,9 +134,9 @@ strong {
 
     padding: 20px;
 
-    background: rgba(0, 0, 0, 0.20);
+    background: rgba(247, 4, 4, 0.77);
 
-    border: 2px solid #ff66cc;
+    border: 2px solid #dce300;
     border-radius: 8px;
 
     box-shadow:
@@ -158,7 +159,7 @@ select {
     padding: 10px;
     margin-top: 10px;
 
-    background-color: #1a102b;
+    background-color: #012b09;
 
     color: white;
 

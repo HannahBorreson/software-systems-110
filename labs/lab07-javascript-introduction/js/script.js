@@ -18,7 +18,7 @@
  * Your mission:
  * Add the correct keyword so isDayMode becomes a proper variable.
  *****************************************************************/
-isDayMode = false;   // boolean: starts as false (night mode is default)
+let isDayMode = true;   // boolean: starts as false (night mode is default)
 
 
 
@@ -26,7 +26,7 @@ isDayMode = false;   // boolean: starts as false (night mode is default)
 // This function runs when the toggle button is clicked.
 // It uses an IF STATEMENT to check the boolean and switch modes.
 
-function toggleDayNight() {
+function toggleDayNight(_clickedButton) {
 
   /*****************************************************************
    * 3. LOGIC FAILURE:
@@ -37,7 +37,11 @@ function toggleDayNight() {
    * Fix this line so the boolean is flipped every time the button
    * is clicked.
    *****************************************************************/
-  isDayMode = isDayMode;
+  let isDayMode = true;
+
+  function checkMode() {
+    console.log(isDayMode);
+  }
 
   /*****************************************************************
    * 4. CONNECTION FAILURE:
@@ -47,7 +51,7 @@ function toggleDayNight() {
    * Your mission:
    * Check the HTML file and find the correct id for the page body.
    *****************************************************************/
-  const body = document.getElementById("pageBody");
+  const body = document.getElementById("page-body");
   const toggleBtn = document.getElementById("toggle-btn");
 
   /*****************************************************************
